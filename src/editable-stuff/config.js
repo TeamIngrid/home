@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Ingrid",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Diaz",
+  message: "Detail-oriented Data Analyst with experience in data extraction, validation, and analysis across enterprise, public sector, and tech environments. Skilled in SQL (Oracle, Teradata), dashboard and report development and data quality management (Informatica MDM, RegEx). Strong foundation in economics and statistics, with hands-on experience in predictive modeling, KPI analysis, and end-to-end reporting. Looking for roles that bridge data and technology. ",
   icons: [
     {
       image: "fa-github",
@@ -88,24 +88,35 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
+    { name: "Python(Pandas, Numpy, Seaborn, Plotly)", value: 90 },
+    { name: "SQL, TeraSQL", value: 100 },
+    { name: "Regular Expressions", value: 80 },
+    { name: "Oracle Database", value: 90 },
+    { name: "Google Cloud", value: 70 },
+    { name: "UML(diagramming)", value: 80 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Statistics", value: 95 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Econometrics", value: 80 },
+    { name: "Economics", value: 80 },
+    { name: "Informatica MDM Solutions", value: 100 },
+    { name: "Publishing", value: 100 },
+    { name: "Assembly Language", value: 80 },
+    { name: "Advanced Excel", value: 80 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Goal-oriented", value: 80 },
+    { name: "Team player", value: 90 },
+    { name: "Customer oriented", value: 75 },
+    { name: "Fast-paced", value: 95 },
+    { name: "Problem solver", value: 75 },
+    { name: "Data driven", value: 90 },
+    { name: "Tight deadlines", value: 90 },
+    { name: "Fast learner", value: 90 },
+    { name: "Creative solutions", value: 90 },
+    { name: "Inquisitive", value: 90 },
   ],
 };
 
@@ -114,8 +125,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time work in data analysis.",
+  email: "ingridmdiaz23@gmail.com",
 };
 
 const experiences = {
@@ -123,14 +134,24 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'MDM Data Quality Analyst, Ford Credit',// Here Add Company Name
+      companylogo: require('../assets/img/ford.jpg'),
+      date: 'April 2022 – April 2023',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Data Analyst, Halight Inc',
+      companylogo: require('../assets/img/halight.jpg'),
+      date: 'November 2019 – April 2022',
+    },
+    {
+      role: 'Economist, Ontario Ministry of Labour',
+      companylogo: require('../assets/img/MOL.jpg'),
+      date: 'September 2012 – December 2018',
+    },
+    {
+      role: 'Business Consultant, Personnel by Pro-STAFF',
+      companylogo: require('../assets/img/pro.png'),
+      date: 'April 2012 – June 2012',
     },
   ]
 }
