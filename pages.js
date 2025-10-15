@@ -5,7 +5,7 @@ const repoURL = 'https://github.com/TeamIngrid/TeamIngrid.github.io.git';
 ghpages.publish(
   pathname,
   {
-    branch: "master",
+    branch: "main",//not master
     repo: repoURL,
   },
   (err) => {
