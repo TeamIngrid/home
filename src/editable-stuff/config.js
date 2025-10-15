@@ -67,12 +67,12 @@ const leadership = {
     "Here.",
   images: [
     { 
-      img: require("../editable-stuff/idiaz.png"), 
+      img: require("../editable-stuff/idiaz.jpeg"), 
       label: "First slide label", 
       paragraph: "Greetings!" 
     },
     { 
-      img: require("../editable-stuff/idiaz.png"), 
+      img: require("../editable-stuff/idiaz.jpeg"), 
       label: "Second slide label", 
       paragraph: "Greetings!!" 
     },
