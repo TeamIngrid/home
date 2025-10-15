@@ -135,7 +135,7 @@ const experiences = {
   data: [
     {
       role: 'MDM Data Quality Analyst, Ford Credit',// Here Add Company Name
-      companylogo: require('../assets/img/ford.jpg'),
+      companylogo: require('../assets/img/ford.png'),
       date: 'April 2022 – April 2023',
     },
     {
@@ -145,7 +145,7 @@ const experiences = {
     },
     {
       role: 'Economist, Ontario Ministry of Labour',
-      companylogo: require('../assets/img/MOL.jpg'),
+      companylogo: require('../assets/img/MOL.webp'),
       date: 'September 2012 – December 2018',
     },
     {
