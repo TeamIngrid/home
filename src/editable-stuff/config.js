@@ -9,41 +9,25 @@ const mainBody = {
   firstName: "Ingrid",
   middleName: "",
   lastName: "Diaz",
-  message: "Detail-oriented Data Analyst with experience in data extraction, validation, and analysis across enterprise, public sector, and tech environments. Skilled in SQL (Oracle, Teradata), dashboard and report development and data quality management (Informatica MDM, RegEx). Strong foundation in economics and statistics, with hands-on experience in predictive modeling, KPI analysis, and end-to-end reporting. Looking for roles that bridge data and technology. ",
-  icons: [
-    {
-      image: "fa-github",
-      url: "https://github.com/TeamIngrid",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/ingrid-diaz-42b4b7330/",
-    },
-  ],
-};
+  message: `Detail-oriented Data Analyst with experience in data extraction, validation, and analysis across enterprise, public sector, and tech environments. Skilled in SQL (Oracle, Teradata), dashboard and report development, and data quality management (Informatica MDM, RegEx).
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+Strong foundation in economics and statistics, with hands-on experience in predictive modeling, KPI analysis, and end-to-end reporting. Looking for roles that bridge data and technology.`,
+  icons: [
+    { image: "fa-github", url: "https://github.com/TeamIngrid" },
+    { image: "fa-linkedin", url: "https://www.linkedin.com/in/ingrid-diaz-42b4b7330/" }
+  ]
+};
 
 const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/idiaz.jpeg"),
   imageSize: 375,
-  message:
-    "My name is Ingrid Diaz. I’m a graduate of Computer Science, 2025 from the University of Windsor. I have a Master of Arts, Economics 2012 and Bachelor of Commerce, Business Administration and Economics 2008. I am curious by nature and am a lifelong student. Looking for my next role in technology",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  message: `My name is Ingrid Diaz.
+I’m a graduate of Computer Science, 2025 from the University of Windsor. I have a Master of Arts, Economics 2012 and Bachelor of Commerce, Business Administration and Economics 2008. I am curious by nature and am a lifelong student.
+
+Looking for my next role in technology.`,
+  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing"
 };
 
 // PROJECTS SECTION
