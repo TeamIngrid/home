@@ -78,11 +78,8 @@ const Home = React.forwardRef((props, ref) => {
 const App = () => {
   const titleRef = React.useRef();
 
-  const basename =
-    process.env.NODE_ENV === "production" ? "/home" : "/";
-
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       {navBar.show && <Navbar ref={titleRef} />}
       <Routes>
         <Route path="/" element={<Home ref={titleRef} />} />
