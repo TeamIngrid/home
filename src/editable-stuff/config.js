@@ -109,7 +109,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time work in data analysis.",
+   "For further details on my experience and professional background, please feel free to reach me on LinkedIn"
   email: "ingridmdiaz23@gmail.com",
 };
 
