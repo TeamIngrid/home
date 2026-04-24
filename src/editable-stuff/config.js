@@ -109,7 +109,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-   "For further details on my experience and professional background, please feel free to reach me on LinkedIn"
+   "For further details on my experience and professional background, please feel free to reach me on LinkedIn",
   email: "ingridmdiaz23@gmail.com",
 };
 
