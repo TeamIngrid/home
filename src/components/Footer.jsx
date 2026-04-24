@@ -20,7 +20,7 @@ const Footer = (props) => {
         using <i className="fab fa-react" />
         <p>
           <small className="text-muted">
-            Feel free to find me on LinkedIn.
+            Have a nice day!
           </small>
         </p>
       </Container>
