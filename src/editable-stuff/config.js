@@ -27,7 +27,7 @@ const about = {
 I’m a graduate of Computer Science, 2025 from the University of Windsor. I have a Master of Arts, Economics 2012 and Bachelor of Commerce, Business Administration and Economics 2008. I am curious by nature and am a lifelong student.
 
 Looking for my next role in technology.`,
-  resume: "https://drive.google.com/file/d/1DgwPgu-XXUns6okUnD5BtTba-ORZliI1/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1GAw6AHIVB2yYpixHvboNhUJtk57lHK9-/view?usp=sharing"
 };
 
 // PROJECTS SECTION
