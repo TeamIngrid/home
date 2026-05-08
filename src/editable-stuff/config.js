@@ -37,7 +37,7 @@ Looking for my next role in technology.`,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: " ",
   gitHubUsername: "TeamIngrid", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
