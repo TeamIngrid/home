@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
+
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
@@ -15,7 +16,8 @@ const Navigation = React.forwardRef((props, ref) => {
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
   useScrollPosition(
     ({ prevPos, currPos }) => {
-      if (!navbarDimensions) return;
+      if (!navbarDimensions || !ref.current) return;
+
       currPos.y + ref.current.offsetTop - navbarDimensions.bottom > 5
         ? setIsTop(true)
         : setIsTop(false);
@@ -25,10 +27,11 @@ const Navigation = React.forwardRef((props, ref) => {
   );
 
   React.useEffect(() => {
-    if (!navbarDimensions) return;
-    navBottom - scrollPosition >= ref.current.offsetTop
-      ? setIsTop(false)
-      : setIsTop(true);
+    if (!navbarDimensions || !ref.current) return;
+
+navBottom - scrollPosition >= ref.current.offsetTop
+  ? setIsTop(false)
+  : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
 
   return (
@@ -80,7 +83,14 @@ const Navigation = React.forwardRef((props, ref) => {
             >
               Skills
             </NavLink>
+            
           )}
+ <NavLink
+  className="nav-item lead"
+  href={process.env.PUBLIC_URL + "/blog"}
+>
+  Blog
+</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
